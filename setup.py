@@ -54,5 +54,6 @@ setup(
         'Topic :: Communications',
         'Topic :: Software Development :: Libraries',
     ],
-    package_data=data_files
+    package_data=data_files,
+    include_package_data=True
 )
